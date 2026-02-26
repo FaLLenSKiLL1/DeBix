@@ -64,6 +64,14 @@ php DeBix.php /путь/к/вашему/проекту
 3. **Обработка**: Каждый файл деобфусцируется пошагово.
 4. **Маппинг**: Найденные соответствия переменных сохраняются в deobfuscation_map.php для последующего использования.
 
+Как выглядит код до деобфускации:
+
+<img width="2856" height="1312" alt="image" src="https://github.com/user-attachments/assets/107db86d-d01f-4cd8-86b2-3a9b92a5b894" />
+
+И после:
+
+<img width="2379" height="1708" alt="image" src="https://github.com/user-attachments/assets/e4e39abf-d10f-48f0-b563-11189151c55c" />
+
 ## Конфигурация
 
 Вы можете изменить настройки в классе DeobfuscationConfig внутри DeBix.php:
