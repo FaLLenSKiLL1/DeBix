@@ -1,0 +1,11 @@
+services:
+  debix:
+    build: .
+    volumes:
+      - .:/app
+      - ${PROJECT_PATH:-./project}:/src
+    environment:
+      - TERM=xterm-256color
+    stdin_open: true
+    tty: true
+    command: /src
